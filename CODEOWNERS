@@ -1,12 +1,11 @@
 # codeowners — Mad River AI
 # Order matters: later patterns override earlier ones.
-# Muzzy/trip7s own the operational surface, Thoth reviews significant changes.
 
 # default owners
 *       @muzzy111 @trip7s
 
-# specs and prompts are reviewed by Thoth as well
-/agent-specs/**    @muzzy111 @trip7s @ThothTrismegistus
+# agent specs are also reviewed by Thoth
+/agent-specs/**    @muzzy111 @trip7s @Thoth-Emerald-AI
 
 # infra has the highest blast radius
 /infra/**           @muzzy111 @trip7s
