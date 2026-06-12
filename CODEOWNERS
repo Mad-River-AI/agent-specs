@@ -1,11 +1,5 @@
-# codeowners — Mad River AI
+# codeowners — agent-specs repo
 # Order matters: later patterns override earlier ones.
 
-# default owners
-*       @muzzy111 @trip7s
-
-# agent specs are also reviewed by Thoth
-/agent-specs/**    @muzzy111 @trip7s @Thoth-Emerald-AI
-
-# infra has the highest blast radius
-/infra/**           @muzzy111 @trip7s
+# thoth reviews all specs
+*       @muzzy111 @trip7s @Thoth-Emerald-AI
